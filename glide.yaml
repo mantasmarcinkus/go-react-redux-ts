@@ -1,0 +1,3 @@
+package: algis
+import:
+- package: gopkg.in/macaron.v1

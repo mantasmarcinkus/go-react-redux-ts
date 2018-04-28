@@ -1,0 +1,18 @@
+hash: 3b115ace7109624574019408cf8f688a23d7b877815f08f99ab30ee051d63ad0
+updated: 2018-04-28T01:28:36.117943+03:00
+imports:
+- name: github.com/githubnemo/CompileDaemon
+  version: 8fe39be0fb0b9cb4e79fb69e1526acf223cddfff
+- name: github.com/go-macaron/inject
+  version: d8a0b8677191f4380287cfebd08e462217bac7ad
+- name: github.com/Unknwon/com
+  version: 7677a1d7c1137cd3dd5ba7a076d0c898a1ef4520
+- name: golang.org/x/crypto
+  version: c197bcf24cde29d3f73c7b4ac6fd41f4384e8af6
+  subpackages:
+  - pbkdf2
+- name: gopkg.in/ini.v1
+  version: 6529cf7c58879c08d927016dde4477f18a0634cb
+- name: gopkg.in/macaron.v1
+  version: c1be95e6d21e769e44e1ec33cec9da5837861c10
+testImports: []
