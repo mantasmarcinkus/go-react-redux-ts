@@ -10,7 +10,7 @@ dev:
 	echo '[bash] Kill processes by using CTRL+C'
 	trap 'kill %1; kill %2' SIGINT;
 	echo '[bash] Running webpack (building typescript react/redux app) AND Starting HTTP go service'
-	npm run-script build-watch | sed -e 's/^/[webpack] /' & CompileDaemon -command="./algis" -exclude-dir=".git" -exclude-dir="node_modules" -exclude-dir="src" | sed -e 's/^/[go] /'
+	npm run-script build-watch | sed -e 's/^/[webpack] /' & CompileDaemon -command="./go-react-redux-ts" -exclude-dir=".git" -exclude-dir="node_modules" -exclude-dir="src" | sed -e 's/^/[go] /'
 
 deps:
 	npm install
